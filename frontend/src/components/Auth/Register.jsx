@@ -25,7 +25,7 @@ const Register = () => {
         name="email"
         value={credentials.email}
         onChange={handleChange}
-        placeholder="Username"
+        placeholder="Enter Username"
         style={{ padding: '0.5rem', borderRadius: '4px', border: '1px solid #ccc', width: '100%' }}
       />
       <input
@@ -33,7 +33,7 @@ const Register = () => {
         name="username"
         value={credentials.username}
         onChange={handleChange}
-        placeholder="Username"
+        placeholder="Enter Username"
         style={{ padding: '0.5rem', borderRadius: '4px', border: '1px solid #ccc', width: '100%' }}
       />
       <input
@@ -41,7 +41,7 @@ const Register = () => {
         name="password"
         value={credentials.password}
         onChange={handleChange}
-        placeholder="Password"
+        placeholder="Enter Password"
         style={{ padding: '0.5rem', borderRadius: '4px', border: '1px solid #ccc', width: '100%' }}
       />
       <button type="submit" style={{ padding: '0.75rem', borderRadius: '4px', border: 'none', backgroundColor: '#007BFF', color: '#fff', cursor: 'pointer', width: '100%' }}>

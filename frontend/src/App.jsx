@@ -7,6 +7,7 @@ import Favorites from './components/Favorites';
 import History from './components/History';
 import Navbar from './components/Navbar';
 import Search from './components/Search';
+import CountryDetails from './components/CountryDetails';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/" element={<Search />}/>
+       
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/history" element={<History />} />
       </Routes>
